@@ -29,11 +29,14 @@ A classic Tic Tac Toe game built with **React** featuring:
 ```bash
 git clone https://github.com/AndiTaTaEe/tic-tac-toe.git
 cd tic-tac-toe
+```
 
 ### 2. Install dependencies
 ```bash
 npm install
+```
 
-###3 3. Run the app
+### 3. Run the app
 ```bash
 npm start
+```
