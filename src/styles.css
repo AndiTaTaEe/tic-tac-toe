@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: black;
+    font-size: 40px;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:rgba(169, 169, 169, 0.429);
+}
+
+.board-row {
+    display:flex;
+    justify-content: center;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.status {
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.game-info {
+    padding-top: 20px;
+}
+
+.game-info ol {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.game-info li {
+    list-style-type: none;
+}
+
+
+.game-info button, .player-input-container button {
+    display: flex;
+    align-items: center;
+    background-color: brown;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.game-info button:hover {
+    background-color: rgba(165, 42, 42, 0.779);
+    cursor: pointer;
+}
+
+.player-input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-input-container h2 {
+    margin-bottom: 10px;
+}
+
+.player-input-container label {
+    color: rgb(165, 42, 42);
+    font-weight: bold;
+}
+
+.player-input-container input {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.player-input-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
